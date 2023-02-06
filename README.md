@@ -7,16 +7,17 @@ Simple and effective python environment to use at game jams.
 Follow all the instruction to install the environment on your system.
 Make sure you have python3 installed on your system!
 
-```python
+```bash
 
-#install virtualenv with pip (OPTIONAL)
+#(OPTIONAL)install virtualenv with pip
 pip install virtualenv
 
-#create virtualenv in current project folder (OPTIONAL)
-virtualenv {envName}
+#(OPTIONAL)create virtualenv in current project folder
+virtualenv yourEnvName
 
-#activate virtualenv ["you have to reactivate everytime you open a new terminal window"] (OPTIONAL)
-source {envName}/bin/activate
+#(OPTIONAL)activate virtualenv
+#you have to reactivate everytime you open a new terminal window
+source yourEnvName/bin/activate
 
 #install pygame
 pip install pygame

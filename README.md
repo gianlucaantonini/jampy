@@ -5,7 +5,7 @@ Simple and effective python environment to use at game jams.
 ## Prerequisite
 
 Follow all the instruction to install the environment on your system.
-Make sure you have python3 installed on your system!
+Make sure you have python3 installed!
 
 ```bash
 
@@ -21,9 +21,6 @@ source yourEnvName/bin/activate
 
 #install pygame
 pip install pygame
-
-#install include
-pip install include
 
 ```
 

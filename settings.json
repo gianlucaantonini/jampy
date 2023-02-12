@@ -4,5 +4,5 @@
     "mainScreenHeight": 1080,
     "framerateLimit" : 60,
     "downscaleMultiplier" : 2,
-    "windowMode" : "resizable"
+    "windowMode" : "fullscreen"
 }

@@ -25,3 +25,7 @@ def addToRenderStack(element,x,y,priority):
     renderElement = {'element':element,'x':x,'y':y,'priority':priority}
     return renderElement
 
+def updateFramerateMultiplier(clockFramerate,framerateLimit):
+    framerateMultiplier = clockFramerate.tick(framerateLimit)
+    return framerateMultiplier
+

@@ -5,13 +5,6 @@ from functions import *
 #Functions Porting TODO
 #-------------------------------
 
-
-
-
-def updateFramerateMultiplier():
-    framerateMultiplier = clockFramerate.tick(framerateLimit)
-    return framerateMultiplier
-
 def runRender(renderScreenStack,overlayScreenStack):
     
     #renderScrenStack
@@ -114,7 +107,7 @@ transparencyTransitionSpeed = 0.1
 #gameLoop
 while True:
     #update Framerate Multiplier
-    framerateMultiplier = updateFramerateMultiplier()
+    framerateMultiplier = updateFramerateMultiplier(clockFramerate,framerateLimit)
 
     #resetting screens --> TODO make it a function
     mainScreen.fill(blackColor) 
